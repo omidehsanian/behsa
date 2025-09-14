@@ -25,7 +25,7 @@ def find_mafia(matrix):
                         return False
         return True
 
-    # بهینه‌سازی: فقط تا پیدا شدن اولین جواب می‌گردیم
+    
     for mafia in itertools.combinations(players, mafia_count):
         roles = [1] * n
         for m
